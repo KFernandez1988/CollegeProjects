@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Kevin Fernandez Gonzalez Factoy Pattern assignment 5 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Factory</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Select Your Player
+        </h1>
+    </header>
+    <main>
+        <section id="forms">
+            <!-- form to get information needed tp create a character -->
+         <form action="#" id="character-creation"> 
+             <h3>
+                 Create your player
+             </h3>
+             <p><input type="text" name="name" placeholder="Character Name"></p>
+             <p><input type="text" name="birth-place" placeholder="Character birth place"></p>
+ 
+                 <h4>Enter Class</h4>
+            <fieldset>
+                <!-- radio button with the values need to create a character -->
+               <p><input type="radio" name="character" id="wizard" value="wizard"><label for="wizard">Wizard</label></p>
+               <p><input type="radio" name="character" id="warrior" value="warrior"><label for="warrior">Warrior</label></p>
+               <p><input type="radio" name="character" id="swordmen" value="swordmen"><label for="swordmen">Swordmen</label></p>
+               <p><input type="radio" name="character" id="other" value="other" checked><label for="other">Other</label></p>
+            </fieldset>
+             <input type="submit" value="Enter">
+         </form>
+         <!-- invisable button until there is a least one character -->
+           <button id="display-info" class="hidden">Display Info</button>
+          </section>
+          <!-- on this div all save character will be save -->
+         <div id="characters-list">
+             <ul>
+
+             </ul>
+         </div>
+    </main>
+    <!-- all script need to complete this project -->
+    <script src="character.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

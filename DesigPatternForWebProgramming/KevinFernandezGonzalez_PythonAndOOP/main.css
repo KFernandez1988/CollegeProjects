@@ -1,0 +1,94 @@
+/* main css to design page python and oop */
+
+/* all main design */
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to left, rgb(84, 150, 201) 20%,rgb(89, 86, 189) 90%);
+    padding: 0; margin: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0; padding: 0em;
+    width: 100%;
+    height: 100vh;
+}
+/* design for form and table */
+main > * {
+    display: block;
+    width: 40%; height: 60%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+}
+
+table {
+    display: flex;
+    flex-flow: nowrap column;
+    margin: 0;
+    padding: 0;
+}
+
+thead, tbody {
+    display: flex;
+    width: 100%;
+    flex-flow: nowrap column;
+    padding: 1em;
+    margin: 0;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(89, 86, 189);
+    border-radius: 15px 15px 0  0;
+    color: white;
+}
+
+thead th, tbody td {
+    display: inline-block;
+    width: calc(100%/5 - 6px);
+    padding: 5px  1.5em;
+    margin: 0;
+    
+}
+
+thead tr:first-child {
+    margin-right: 1em;
+    margin-left: .02em;
+}
+thead tr:last-child {
+    margin-left: 1em;
+    margin-right: .02em;
+}
+
+tbody tr {
+    display: block;
+    width: 100%;
+    height: 3.2em;
+   
+}
+
+tbody tr:first-child {
+    padding-right: 1em;
+    padding-left: .05em;
+}
+tbody tr:last-child {
+    padding-right: 1em;
+    padding-left: .05em;
+}
+
+
+tbody  tr:nth-last-of-type(odd) {
+    background-color: #555;
+    color: #eee;
+}
+
+tbody  tr:nth-last-of-type(even) {
+    color: #555;
+    background-color: #eee;
+}

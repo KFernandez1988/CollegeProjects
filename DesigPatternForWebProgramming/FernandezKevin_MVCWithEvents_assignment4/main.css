@@ -1,0 +1,108 @@
+/* main css to design MVCwithEvents */
+
+/* all main design */
+* {
+    box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+body {
+    background: #33CCBB;
+    color:#CCAA23;
+}
+
+header {
+    background: center/cover url("./pets.jpg");
+    height: 100vh;
+    text-align: center;
+    font-size: 1.5rem;
+    
+    border-bottom: 5px solid #999173;
+}
+
+header > * {
+    width: 50%;
+    margin:  1.5rem auto;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+}
+
+header:first-child {
+    font-size: 2rem;
+    padding-top: 20rem;
+}
+
+header:after {
+    content: '';
+    position: absolute;
+    top:0;left:0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(51, 204, 187, .45);
+}
+
+form, div#display {
+    display: inline-block;
+    background-color:#999173;
+    border: 5px solid #999173;
+    width:40% ;
+    height: 85vh;
+    padding: 5rem 2rem;
+    margin: 10rem 5rem;
+    text-align: center;
+    overflow: scroll;
+    text-overflow: clip;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: large;
+}
+input, input[type="text"], input[type="number"], select{
+    display: block;
+    width: 50%;
+    padding: 1rem 1rem;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: large;
+    color: #CCAA23;
+}
+
+
+input::placeholder {
+    font-weight: 700;
+    color: #CCAA23;
+}
+
+input[type='submit'], article button {
+    background-color: #999173;
+    color: #CCAA23;
+    font-size: large;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+
+
+article {
+    margin: 2rem 2.5rem;
+    background-color: inherit;
+    color: #CCAA23;
+    font-weight: 700;
+    font-style: 1rem;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+article > * {
+    margin: 1.5rem .01rem;
+}
+
+article h2.name {
+    padding-top: 2rem;
+}
+
+article button {
+    padding: 1rem 2.5rem;
+}
+

@@ -1,0 +1,15 @@
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\KevinFErnandezGonzalez_CE09.exe.config
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\KevinFErnandezGonzalez_CE09.exe
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\KevinFErnandezGonzalez_CE09.pdb
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\EntityFramework.dll
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\EntityFramework.SqlServer.dll
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\MySql.Data.dll
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\MySql.Data.Entity.EF6.dll
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\EntityFramework.xml
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\EntityFramework.SqlServer.xml
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\bin\Debug\MySql.Data.Entity.EF6.xml
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\obj\Debug\KevinFErnandezGonzalez_CE09.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\obj\Debug\KevinFErnandezGonzalez_CE09.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\obj\Debug\KevinFErnandezGonzalez_CE09.csproj.CopyComplete
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\obj\Debug\KevinFErnandezGonzalez_CE09.exe
+\\vmware-host\Shared Folders\Desktop\KevinFErnandezGonzalez_CE09\KevinFErnandezGonzalez_CE09\obj\Debug\KevinFErnandezGonzalez_CE09.pdb

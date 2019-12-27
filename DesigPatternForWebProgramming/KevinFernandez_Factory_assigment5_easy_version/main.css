@@ -1,0 +1,166 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+    font: 1.6rem/1.5 "Program OT", arial, "sans serif";
+    color: rgb(57,172,231);
+}
+
+
+header {
+    width: 100%;
+    height: 15vh;
+    padding: 10rem 0;
+    text-align: center;
+    background: center/cover url('./bkg.jpg') no-repeat;
+}
+
+header h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transform: translate(0, -4rem);
+    
+}
+
+#forms {
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: rgb(45,56,60);
+    display: block;
+    width: 40rem;
+    height: 60rem;
+    margin: 5rem auto;
+    overflow: scroll;
+    text-align: center;
+}
+h3 {
+    transform: translate(0, 1rem);
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+input[type="text"] {
+    background:white;
+    width:300px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding: 8px;
+    margin: 1rem 0;
+    border: #2980b9 1px solid; 
+    font-size:1.3rem;
+  }
+
+  input[type="text"]::placeholder {
+      font-size: large;
+  }
+   .stats {
+      display: block;
+      width:60%;
+      text-align: left;
+      margin: 0 auto;
+  }
+
+  .stats > * {
+      display: inline-block;
+      width: 45%;
+      margin: .5rem .3rem;
+  }
+
+  .stats input[type="number"] {
+      float: right;
+     margin: .5rem auto;
+  }
+
+  
+  input[type="submit"], button {
+    background: rgb(65,76,80);
+    width:125px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: rgb(65,76,80) 1px solid;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin:2rem auto;
+    font-weight:800;
+    font-size:0.8em;
+  }
+  
+  input[type="submit"]:hover,  button:hover{
+    background:rgb(45,56,60); 
+  }
+  input[type="radio"] {
+    display: inline-block;
+    margin:0 1.5rem 1rem 2.5rem ;
+    padding: 0;
+}
+
+button {
+    display: block;
+    margin: 5rem auto;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.showing {
+  visibility: visible;
+}
+
+
+fieldset {
+ width: 35%;
+ margin: 0  auto;
+ text-align: left;
+}
+
+#characters-list ul {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#characters-list {
+ background-color: rgb(25,36,40);
+ width: 100;
+ height: 50vh;
+ overflow: scroll;
+ 
+}
+
+#characters-list li {
+  width: 15rem;
+  margin: 5rem;
+  display: inline-block;
+  overflow: hidden;
+}
+
+ .hide {
+    display: none;
+}
+
+.obj {
+    background-color: rgb(57,172,231);
+    border-radius: 25rem;
+}
+
+span {
+    display: block;
+}
+
+
+
+
+  

@@ -1,0 +1,103 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+    font: 1.6rem/1.5 arial, "sans serif";
+
+}
+
+header {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #151518;
+    width: 100%;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+Header h1 {
+    display: block;
+    width: 550px;
+    font-weight: 700;
+    font-size: 6rem;
+    padding: 0 1rem;
+    margin: 0rem 55rem;
+    background: -webkit-linear-gradient(0deg, #FFE20A, #1030AD, #FFE20A, #1030AD, #FFE20A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+header p {
+    display: block;
+    width: 550px;
+    font-weight: 700;
+    font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    margin: 1rem 55rem;
+    background: -webkit-linear-gradient(0deg, #FFE20A, #1030AD, #FFE20A, #1030AD, #FFE20A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+
+}
+
+section {
+    width: 90%;
+    margin: 25rem 0 0 33rem ;
+    
+}
+
+div, .btn {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.btn {
+    background-color: #151518;
+    width: 150px;
+    height: 50px;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.btn:first-child {
+    border-radius: 5rem 2rem 2rem 5rem;
+}
+
+.btn:last-child {
+    border-radius: 2rem 5rem 5rem 2rem;
+}
+
+button {
+    background: -webkit-linear-gradient(0deg, #FFE20A, #1030AD, #FFE20A, #1030AD, #FFE20A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+#movie-in-display {
+    width: 700px;
+    text-align: center;
+    color:#151518;
+}
+
+article h3 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+article p{
+    letter-spacing: .15rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

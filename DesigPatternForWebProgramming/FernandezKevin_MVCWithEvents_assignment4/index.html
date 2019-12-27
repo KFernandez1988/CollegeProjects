@@ -1,0 +1,51 @@
+
+<!-- Kevin Fernandez MVC with Events Project -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pets saver</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1> Enter a pet</h1>
+        <p>Give pets a home</p>
+    </header>
+    <!-- form where to get data -->
+    <form id="pet" class=".float" action="#" method="get">
+        <h3>Enter New Pet</h3>
+      <label for="fullName">
+            <p><input id="fullName" name="fullName" type="text" placeholder="Full Name"></p>
+      </label>
+      <label for="age">
+          <p><input id="age" name="age" type="number" placeholder="Age"></p>
+      </label>
+
+    <p><select name="species" id="species">
+        <option value=" " selected  disabled> select a species</option>
+        <option value="dog"> Dog</option>
+        <option value="cat"> Cat</option>
+    </select></p>
+
+          <p><input type="submit" value="submit"></p>
+<!-- Show the count of pets in the list -->
+          <label for="total"> Total Items
+            <p><input id="total" name="total" type="text" placeholder="" disabled></p>
+        </label> 
+    </form>
+
+<!-- data will appear here -->
+    <div id="display">
+     <h3>Display Pets</h3>
+    </div>
+</body>
+
+<script src="dataObject.js"></script>
+<script src="util.js"></script>
+<script src="mvc.js"></script>
+<script src="main.js"></script>
+
+</html>

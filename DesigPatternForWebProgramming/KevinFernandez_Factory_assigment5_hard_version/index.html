@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- Kevin Fernandez Gonzalez Factory patter with MVC and Event -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Factory</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Select Your Player
+        </h1>
+    </header>
+    <main>
+        <section id="forms">
+            <!-- Form to create character -->
+         <form action="#" id="character-creation"> 
+             <h3>
+                 Create your player
+             </h3>
+             <p><input type="text" name="name" placeholder="Character Name"></p>
+             <p><input type="text" name="birth-place" placeholder="Character birth place"></p>
+ 
+                 <h4>Enter Class</h4>
+            <fieldset>
+               <p><input type="radio" name="character" id="wizard" value="wizard"><label for="wizard">Wizard</label></p>
+               <p><input type="radio" name="character" id="warrior" value="warrior"><label for="warrior">Warrior</label></p>
+               <p><input type="radio" name="character" id="swordmen" value="swordmen"><label for="swordmen">Swordmen</label></p>
+               <p><input type="radio" name="character" id="other" value="other" checked><label for="other">Other</label></p>
+            </fieldset>
+             <input type="submit" value="Enter">
+         </form>
+         <form action="#" id="character-stats"> 
+             <!-- display the information of the selected character -->
+                <h3>
+                    Player Information
+                </h3>
+                <label for="name-is"></label>
+                <p><input type="text" name="name-is" id="name-is" placeholder="Character Name" disabled></p>
+                <label for="birth-in"></label>
+                <p><input type="text" name="birth-in" id="birth-in" placeholder="Character birth place" disabled></p>
+                <label for="job"></label>
+                <p><input type="text" name="job" id="job" placeholder="Character Job" disabled></p>
+    
+                  <h4>Stats</h4>
+                  
+                    <p class="stats"><label for="attack">Attack:</label><input type="number" name="attack" id="attack" disabled></p>         
+                    <p class="stats"><label for="defense" >Defense:</label> <input type="number" name="defense" id="defense" disabled></p>
+                    <p class="stats"><label for="magic">Magic:</label><input type="number" name="magic" id="magic" disabled></p>
+                  
+            </form>
+          </section>
+          <!-- show the list of character -->
+         <div id="characters-list">
+             <ul>
+
+             </ul>
+         </div>
+    </main>
+    <!-- all the script needed to complete this app -->
+    <script src="character.js"></script>
+    <script src="app.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

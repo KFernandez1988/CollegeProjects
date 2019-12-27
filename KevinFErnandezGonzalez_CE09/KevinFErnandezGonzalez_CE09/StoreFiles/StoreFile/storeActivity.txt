@@ -1,0 +1,27 @@
+1: kevin Log to store  
+2: kevin has put item:Deadly Class #10 in cart  
+3: kevin has put item:Feathers #1 (Of 6)(Cover C Ken Niimura) in cart  
+4: kevin has put item:Grimm Fairy Tales Presents Tales Of Terror #6 (Cover C Eric J.) in cart  
+5: kevin has put item:Guardians Of The Galaxy Raccoon Giant Wall Decal in cart  
+6: kevin has put item:Ant-Man #1 (IN Variant Cover) in cart  
+7: kevin has put item:Detective Comics #38 (Joshua Middleton The Flash 75 Variant Cover) in cart  
+8: kevin has put item:My Little Pony The Complete Original Series DVD in cart  
+9: kevin has put item:2000 AD Rogue Trooper Navy T-Shirt XL in cart  
+10: kevin has put item:Magnus Robot Fighter #10 (Cover A Jonathan Lau) in cart  
+11: kevin has put item:Panda Classic By Cacooca 7.5-Inch Vinyl Figure in cart  
+12: kevin has put item:Operation S.I.N. #1 (Of 5)(Michael Komarck Regular Cover) in cart  
+13: kevin    
+
+Deadly Class #10 price ----> 3.50 
+Feathers #1 (Of 6)(Cover C Ken Niimura) price ----> 0.00 
+Grimm Fairy Tales Presents Tales Of Terror #6 (Cover C Eric J.) price ----> 3.99 
+Guardians Of The Galaxy Raccoon Giant Wall Decal price ----> 17.99 
+Ant-Man #1 (IN Variant Cover) price ----> 0.00 
+Detective Comics #38 (Joshua Middleton The Flash 75 Variant Cover) price ----> 0.00 
+My Little Pony The Complete Original Series DVD price ----> 0.00 
+2000 AD Rogue Trooper Navy T-Shirt XL price ----> 16.99 
+Magnus Robot Fighter #10 (Cover A Jonathan Lau) price ----> 3.99 
+Panda Classic By Cacooca 7.5-Inch Vinyl Figure price ----> 105.00 
+Operation S.I.N. #1 (Of 5)(Michael Komarck Regular Cover) price ----> 3.99 
+This customer total was 155.45  
+
